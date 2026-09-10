@@ -88,7 +88,7 @@ h2 {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
 }
@@ -235,6 +235,9 @@ footer {
         width: 130px;
         height: 130px;
     }
+    .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
@@ -250,4 +253,7 @@ footer {
     .project-tile p {
         min-height: auto;
     }
+    .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
