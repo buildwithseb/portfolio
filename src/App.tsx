@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Hero></Hero>
       <main className="mx-auto max-w-5xl space-y-10 px-6 py-12">
         <About></About>
+        <Projects></Projects>
 
         {/* {Projects} */}
 
