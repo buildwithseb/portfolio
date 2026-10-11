@@ -1,9 +1,20 @@
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-900">
-      <h1 className="text-4xl font-bold text-white">
-        My Developer Portfolio
-      </h1>
+    <div className="min-h-screen bg-gray-800 text-white">
+      <main className="mx-auto max-w-5xl px-6">
+
+        {/* {Hero} */}
+
+        {/* {About} */}
+
+        {/* {Projects} */}
+
+        {/* {Skills} */}
+
+        {/* {Contact} */}
+      </main>
+
+      {/* {Footer} */}
     </div>
   );
 }
