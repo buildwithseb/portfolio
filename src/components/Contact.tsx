@@ -1,4 +1,4 @@
-export const Contact = () => {
+const Contact = () => {
   return (
     <section className="flex flex-col gap-3 rounded-xl border border-gray-200 bg-white p-8 shadow-sm md:p-10">
       <h2 className="mb-2 text-2xl font-bold text-gray-900">Contact</h2>
@@ -20,3 +20,5 @@ export const Contact = () => {
     </section>
   );
 };
+
+export default Contact;
