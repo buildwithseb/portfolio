@@ -3,7 +3,7 @@ import type { Project } from "../types/Project";
 export const projects: Project[] = [
   {
     id: 1,
-    logo: "MH",
+    logo: "/logos/maintenance-handover.webp",
     title: "Maintenance Handover Dashboard",
     description:
       "Full-stack shift handover application designed for mining maintenance workflows.",
@@ -20,7 +20,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    logo: "GH",
+    logo: "/logos/game-hub.webp",
     title: "Game Hub",
     description:
       "Responsive video game discovery application built with React and TypeScript. Users can browse, search, and filter games by genre, platform, and rating using data from the RAWG API.",
