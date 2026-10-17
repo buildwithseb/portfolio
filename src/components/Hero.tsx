@@ -1,4 +1,4 @@
-import profileImage from "/public/profile.jpg";
+import profileImage from "/public/profile.png";
 
 const Hero = () => {
   return (
@@ -17,11 +17,14 @@ const Hero = () => {
             modern technologies like React, JavaScript, Node.js, and MongoDB.
           </p>
         </div>
-        <img
-          src={profileImage}
-          alt="Profile portrait"
-          className="h-40 w-40 shrink-0 rounded-full border-4 border-white object-cover shadow-lg"
-        />
+
+        <div className="h-52 w-52 shrink-0 overflow-hidden rounded-full border-4 border-white shadow-lg">
+          <img
+            src={profileImage}
+            alt="Profile portrait"
+            className="h-full w-full scale-140 object-cover"
+          />
+        </div>
       </div>
     </section>
   );
